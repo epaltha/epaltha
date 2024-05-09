@@ -1,0 +1,45 @@
+td,th,tr{
+    border:1px solid;
+    border-color: #f4f4f4;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container-table{
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.main-title{
+    text-align: center;
+    color: #333;
+}
+
+.main-table{
+    width: 100%;
+    margin-top: 20px;
+
+}
+
+.main-table th,td{
+    padding: 15px;
+    text-align: center;
+    width: 200px;
+}
+
+.main-table th{
+    background-color: black;
+    color: white;
+}
